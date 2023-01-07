@@ -1,0 +1,2 @@
+A program that exports an intended container and saves it in a directory. Also it pushes the backup to a docker hub account.
+Check backup.log to see how well the backup process went.
