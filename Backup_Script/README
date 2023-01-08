@@ -1,2 +1,3 @@
-A program that exports an intended container and saves it in a directory. Also it pushes the backup to a docker hub account.
+A program that exports an intended container and saves it in a directory. Also it pushes the backup to a DockerHub account.
 Check backup.log to see how well the backup process went.
+For using as a cron job need to remove `read -p` lines and set container name and DockerHub account statically.
