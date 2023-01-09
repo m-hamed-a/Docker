@@ -4,7 +4,7 @@ mkdir Backup > /dev/null 2>&1
 #CONT="Contaner_Name"
 read -p "Please enter the name of your intended container: " CONT
 CONTL=`echo $CONT | tr [:upper:] [:lower:]`
-#DH="Docker_Hub_Account"
+#DH="Docker_Hub_Repository"
 read -p "Please enter your DockerHub repository: " DH
 DATE=`date +%Y%m%d%H%M%S`
 
