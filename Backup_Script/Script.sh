@@ -50,7 +50,7 @@ fi
 docker rmi ${DH}:${CONTL}_V_$DATE > /dev/null 2>&1
 
 if [ $? -eq 0 ];then
-	echo "DockerHub format deleted successfully!" | tee -a ./Backup/backup.log
+	echo "DockerHub format image deleted successfully!" | tee -a ./Backup/backup.log
 else
         echo "There is a problem in deleting DockerHub format image!" | tee -a ./Backup/backup.log
 	exit
